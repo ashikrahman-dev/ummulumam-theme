@@ -18,7 +18,7 @@ get_header(); ?>
             <div class="col-lg-5">
                 <!-- Banner content  -->
                 <div class="banner-content">
-                    <h1 class="text-clr-primary fw-bold">
+                    <h1 class="text-clr-primary fw-bold fs-48">
                         তুমি বুঝো আর না বুঝো, তিনি তোমার জন্য এক অতুলনীয় রহমত!
                     </h1>
                     <p class="text-clr-secondary fs-18">
@@ -120,7 +120,7 @@ get_header(); ?>
             ?>
 
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <div class="image-gallery-item">
 
                             <!-- Button trigger modal -->

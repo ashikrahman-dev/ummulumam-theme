@@ -148,10 +148,36 @@ body {
 
 .fs-38 {
   font-size: 38px;
+  line-height: 1.4em;
+}
+@media (max-width: 575px) {
+  .fs-38 {
+    font-size: 26px;
+    line-height: 1.4em;
+  }
 }
 
 .fs-42 {
   font-size: 42px;
+  line-height: 1.4em;
+}
+@media (max-width: 575px) {
+  .fs-42 {
+    font-size: 28px;
+    line-height: 1.4em;
+    text-wrap: balance;
+  }
+}
+
+.fs-48 {
+  font-size: 48px;
+  line-height: 1.4em;
+}
+@media (max-width: 575px) {
+  .fs-48 {
+    font-size: 32px;
+    line-height: 1.23em;
+  }
 }
 
 .section-padding-100 {
@@ -240,8 +266,6 @@ header {
 .banner-content h1 {
   margin-bottom: 30px;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 1.4em;
   color: var(--blue);
 }
 
@@ -318,6 +342,11 @@ header {
 ====================================*/
 .footer-top {
   padding-block: 80px 40px;
+}
+@media (max-width: 767px) {
+  .footer-top .row {
+    --bs-gutter-y: 30px;
+  }
 }
 
 .footer-logo img {
@@ -561,6 +590,12 @@ blockquote.special-quote::before {
 }
 .image-gallery .row {
   --bs-gutter-y: 24px;
+}
+@media (max-width: 575px) {
+  .image-gallery .row {
+    --bs-gutter-x: 16px;
+    --bs-gutter-y: 16px;
+  }
 }
 
 .modal-dialog {

@@ -5,7 +5,7 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-5 col-sm-12">
                     <!-- Footer widget area -->
                     <div class="footer-widget footer-about pe-0 pe-lg-5">
                         <!-- Footer logo -->
@@ -18,7 +18,7 @@
                     </div>
                     <!-- Footer widget area -->
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="footer-widget">
                         <h4 class="text-white">গুরুত্বপূর্ণ লিঙ্ক</h4>
                         <ul class="quick-links d-flex flex-column gap-2">
@@ -29,7 +29,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="footer-widget">
                         <h4 class="text-white">আমাদের ফলো করুন</h4>
                         <div class="social-links d-flex gap-3">
@@ -55,11 +55,11 @@
     <div class="footer-copyright">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
-                    <p class="">© স্বত্ব সংরক্ষিত</p>
+                <div class="col-md-4 col-sm-3">
+                    <p class="text-center text-md-start mb-2 mb-md-0">© স্বত্ব সংরক্ষিত</p>
                 </div>
-                <div class="col-sm-8">
-                    <p class=" text-end">সার্বিক তত্বাবধানে: ❤ কেন্দ্রীয় মহিলা আনজুমানে আল বাইয়্যিনাত</p>
+                <div class="col-md-8 col-sm-9">
+                    <p class=" text-center text-md-end">সার্বিক তত্বাবধানে: ❤ কেন্দ্রীয় মহিলা আনজুমানে আল বাইয়্যিনাত</p>
                 </div>
             </div>
         </div>
