@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/muslecib/new.ummulumam.com/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
