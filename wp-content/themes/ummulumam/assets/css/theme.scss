@@ -157,6 +157,11 @@ body {
 }
 .fs-18 {
     font-size: 18px;
+    @media (max-width: 991px) {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
 }
 .fs-22 {
     font-size: 22px;
@@ -172,23 +177,67 @@ body {
 .fs-42 {
     font-size: 42px;
     line-height: 1.4em;
+    text-wrap: balance;
+    @media (max-width: 1199px) {
+        font-size: 40px;
+        line-height: 1.4em;
+    }
+    @media (max-width: 991px) {
+        font-size: 36px;
+        line-height: 1.4em;
+    }
+    @media (max-width: 767px) {
+        font-size: 32px;
+        line-height: 1.4em;
+    }
     @media (max-width: 575px) {
         font-size: 28px;
-        line-height: 1.4em;
-        text-wrap: balance;
+        line-height: 1.37em;
+    }
+    @media (max-width: 450px) {
+        font-size: 26px;
+        line-height: 1.37em;
     }
 }
 .fs-48 {
     font-size: 48px;
     line-height: 1.4em;
+    @media (max-width: 1199px) {
+        font-size: 45px;
+        line-height: 1.4em;
+    }
+    @media (max-width: 991px) {
+        font-size: 42px;
+        line-height: 1.4em;
+    }
+    @media (max-width: 767px) {
+        font-size: 38px;
+        line-height: 1.37em;
+    }
     @media (max-width: 575px) {
-        font-size: 32px;
-        line-height: 1.23em;
+        font-size: 34px;
+        line-height: 1.37em;
+    }
+    @media (max-width: 450px) {
+        font-size: 30px;
+        line-height: 1.37em;
     }
 }
 
 .section-padding-100 {
     padding-block: 100px;
+    @media (max-width: 1199px) {
+        padding-block: 80px;
+    }
+    @media (max-width: 991px) {
+        padding-block: 70px;
+    }
+    @media (max-width: 767px) {
+        padding-block: 60px;
+    }
+    @media (max-width: 575px) {
+        padding-block: 50px;
+    }
 }
 
 
@@ -288,15 +337,35 @@ header {
     padding-block: 140px 150px;
     background: url('../images/home-banner-bg-desktop.jpg');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: left center;
     background-size: cover;
     margin-top: -2px;
+
+    @media (max-width: 991px) {
+        background-size: auto 50%;
+        background-position: left top;
+        padding-block: 110px 100px;
+    }
+
+    @media (max-width: 575px) {
+        background: url('../images/home-banner-bg-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-block: 80px 80px;
+    }
 }
 
 .banner-content h1 {
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--blue);
+    
+    @media (max-width: 991px) {
+        margin-bottom: 20px;
+    }
+    @media (max-width: 767px) {
+        margin-bottom: 15px;
+    }
 
 
 
@@ -338,6 +407,22 @@ header {
     -ms-animation: bounce 3s infinite ease-in-out;
     -moz-animation: bounce 3s infinite ease-in-out;
     animation: bounce 3s infinite ease-in-out;
+
+    .nuu-book {
+        @media (max-width: 991px) {
+            max-width: 80%;
+        }
+    }
+    .nuu-book {
+        @media (max-width: 767px) {
+            max-width: 90%;
+        }
+    }
+    .nuu-book {
+        @media (max-width: 575px) {
+            max-width: 100%;
+        }
+    }
 }
 
 /*====================================
@@ -495,6 +580,17 @@ header {
     padding-block: 170px 120px;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+
+    @media (max-width: 1199px) {
+        padding-block: 140px 100px;
+    }
+    @media (max-width: 991px) {
+        padding-block: 120px 80px;
+    }
+    @media (max-width: 767px) {
+        padding-block: 110px 70px;
+    }
+
 }
 
 .page-breadcrumb nav {
@@ -530,7 +626,6 @@ header {
 
 .page-banner-heading {
     .banner-heading-text {
-        font-size: 42px;
         font-weight: 600;
         color: #ffffff;
     }
@@ -667,10 +762,10 @@ blockquote.special-quote::before {
 
 
 :root {
-    --hero-background-1: color(display-p3 .937254902 .937254902 .9960784314/1);
-    --hero-background-2: color(display-p3 .9098039216 .8862745098 .9960784314/.8);
-    --hero-background-3: color(display-p3 .9882352941 .8862745098 .9411764706/.8);
-    --hero-background-4: color(display-p3 .9960784314 .9647058824 .9607843137/1);
+    // --hero-background-1: color(display-p3 .937254902 .937254902 .9960784314/1);
+    // --hero-background-2: color(display-p3 .9098039216 .8862745098 .9960784314/.8);
+    // --hero-background-3: color(display-p3 .9882352941 .8862745098 .9411764706/.8);
+    // --hero-background-4: color(display-p3 .9960784314 .9647058824 .9607843137/1);
     // --hero-lights-1: color(display-p3 .7725490196 .5529411765 1/1);
     // --hero-lights-2: color(display-p3 .6431372549 .5137254902 1/1);
     // --hero-lights-3: color(display-p3 1 .4470588235 .7450980392/1);
@@ -689,9 +784,9 @@ blockquote.special-quote::before {
     // --section-colors-unveil-contact-info: color(display-p3 .2235294118 .1058823529 .3137254902/1);
     // --section-colors-verification: color(display-p3 .0666666667 .1411764706 .2901960784/1);
     // --section-colors-data-sync: color(display-p3 .1058823529 .2274509804 .2509803922/1);
-    --automated-background-1: color(display-p3 .9098039216 .8862745098 .9960784314/.7);
-    --automated-background-2: color(display-p3 .9882352941 .8862745098 .9411764706/.7);
-    --automated-background-3: color(display-p3 .9882352941 .9215686275 .8784313725/.7);
+    // --automated-background-1: color(display-p3 .9098039216 .8862745098 .9960784314/.7);
+    // --automated-background-2: color(display-p3 .9882352941 .8862745098 .9411764706/.7);
+    // --automated-background-3: color(display-p3 .9882352941 .9215686275 .8784313725/.7);
     // --enchanting-background-1: color(display-p3 .9215686275 .9490196078 .9882352941/1);
     // --enchanting-background-2: color(display-p3 .9333333333 .9843137255 .9764705882/1);
     // --problem-background-1: color(display-p3 .9450980392 .9568627451 .9725490196/1);
@@ -799,6 +894,12 @@ blockquote.special-quote::before {
                 transition: all 200ms linear;
                 transition-delay: 50ms;
                 transform: translateY(-185px);
+
+                @media (max-width: 767px) {
+                    width: 40px;
+                    height: 40px;
+                    background-size: 24px 24px;
+                }
             }
         }
 

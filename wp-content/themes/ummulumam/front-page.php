@@ -15,20 +15,20 @@ get_header(); ?>
 <section class="banner-wrapper">
     <div class="container">
         <div class="row align-items-center flex-column-reverse flex-lg-row">
-            <div class="col-lg-5">
+            <div class="col-lg-6 col-xl-5 ">
                 <!-- Banner content  -->
                 <div class="banner-content">
-                    <h1 class="text-clr-primary fw-bold fs-48">
+                    <h1 class="text-clr-primary fw-bold fs-48 text-center text-sm-start">
                         তুমি বুঝো আর না বুঝো, তিনি তোমার জন্য এক অতুলনীয় রহমত!
                     </h1>
-                    <p class="text-clr-secondary fs-18">
+                    <p class="text-clr-secondary fs-18 text-center text-sm-start">
                         এই রহমতের ছায়াতলে একবার এসেই দেখো, জীবন পালটে যাবে। খুঁজে পাবে জীবনের মূল লক্ষ্য। অন্তরের
                         অন্ধকার দূর করে আলোয় উদ্ভাসিত হতে এর চেয়ে উত্তম সংসর্গ আর হয় না। শুধু এসেই দেখো। দেখে যাও উম্মুল
                         মু’মিনীন উনাদের নকশা…
                     </p>
 
                     <!-- Button -->
-                    <div class="banner-button">
+                    <div class="banner-button text-center text-sm-start">
                         <a href="https://new.ummulumam.com/about/" class="common-fill-button text-white">
                             কে তিনি, জানতে চাও?
                         </a>
@@ -37,9 +37,9 @@ get_header(); ?>
                 </div>
                 <!-- Banner content  -->
             </div>
-            <div class="col-lg-6 offset-lg-1">
+            <div class="col-lg-6 col-xl-6 offset-xl-1 ">
                 <!-- Banner image  -->
-                <div class="banner-image">
+                <div class="banner-image text-center text-md-end">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nosihote-ummul-umam-3d.png" alt="Nosihote ummul umam book" class="img-fluid nuu-book">
                 </div>
                 <!-- Banner image  -->
@@ -120,7 +120,7 @@ get_header(); ?>
             ?>
 
 
-                    <div class="col-md-3 col-6">
+                    <div class="col-6 col-md-4 col-lg-3">
                         <div class="image-gallery-item">
 
                             <!-- Button trigger modal -->

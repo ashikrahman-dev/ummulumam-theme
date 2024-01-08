@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-banner-heading">
-                    <h1 class="banner-heading-text text-center">
+                    <h1 class="banner-heading-text text-center fs-42">
                         <?php wp_title(''); ?>
                     </h1>
                 </div>

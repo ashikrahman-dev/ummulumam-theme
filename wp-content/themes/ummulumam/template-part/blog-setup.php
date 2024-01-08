@@ -11,7 +11,7 @@ if (have_posts()) :
 
 ?>
 
-        <div class="col-lg-3">
+        <div class="col-md-6 col-lg-4 col-xl-3">
             <article class="single-post-wrap">
 
                 <?php
