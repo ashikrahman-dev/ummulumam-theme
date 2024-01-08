@@ -940,11 +940,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
                         z-index: 9;
                     }
                     
-                    li:last-child {
-                        &::after {
-                            background: transparent;
-                        }
-                    }
+                    
 
                     .wp-block-latest-posts__featured-image {
                         a {
@@ -978,6 +974,12 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
                         }
                     }
 
+                }
+
+                &:last-child {
+                    &::after {
+                        background: transparent;
+                    }
                 }
             }
         }

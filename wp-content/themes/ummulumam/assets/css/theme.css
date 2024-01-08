@@ -746,9 +746,6 @@ input[type=search]::-webkit-search-results-decoration {
   background: linear-gradient(90deg, rgba(234, 232, 243, 0) 0%, #EAE8F3 51.44%, rgba(234, 232, 243, 0.01) 100%);
   z-index: 9;
 }
-.child-sidebar .single-sidebar-wrap ul.wp-block-latest-posts__list li li:last-child::after {
-  background: transparent;
-}
 .child-sidebar .single-sidebar-wrap ul.wp-block-latest-posts__list li .wp-block-latest-posts__featured-image a img {
   width: 60px;
   border-radius: 8px;
@@ -769,6 +766,9 @@ input[type=search]::-webkit-search-results-decoration {
 .child-sidebar .single-sidebar-wrap ul.wp-block-latest-posts__list li a.wp-block-latest-posts__post-title:hover {
   color: var(--red-orange);
   text-decoration-color: hsla(15, 100%, 69%, 0.5);
+}
+.child-sidebar .single-sidebar-wrap ul.wp-block-latest-posts__list:last-child::after {
+  background: transparent;
 }
 .child-sidebar .single-sidebar-wrap ul.wp-block-categories-list {
   padding: 15px 25px;
