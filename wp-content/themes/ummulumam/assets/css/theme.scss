@@ -927,7 +927,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
                 gap: 20px;
 
                 li {
-
                     position: relative;
                     &::after {
                         position: absolute;
@@ -939,6 +938,12 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
                         right: 0;
                         background: linear-gradient(90deg, rgba(234, 232, 243, 0.00) 0%, #EAE8F3 51.44%, rgba(234, 232, 243, 0.01) 100%);
                         z-index: 9;
+                    }
+                    
+                    li:last-child {
+                        &::after {
+                            background: transparent;
+                        }
                     }
 
                     .wp-block-latest-posts__featured-image {
