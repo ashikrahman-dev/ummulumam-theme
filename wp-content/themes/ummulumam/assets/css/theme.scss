@@ -920,7 +920,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
         ul {
             &.wp-block-latest-posts__list {
-                padding: 15px 25px;
+                padding: 15px 25px 25px 25px;
                 
                 display: flex;
                 flex-direction: column;
@@ -940,7 +940,11 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
                         z-index: 9;
                     }
                     
-                    
+                    &:last-child {
+                        &::after {
+                            background: transparent;
+                        }
+                    }
 
                     .wp-block-latest-posts__featured-image {
                         a {
@@ -976,19 +980,13 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
                 }
 
-                &:last-child {
-                    li {
-                        &::after {
-                            background: transparent;
-                        }
-                    }
-                }
+                
             }
         }
 
         ul {
             &.wp-block-categories-list {
-                padding: 15px 25px;
+                padding: 15px 25px 25px 25px;
                 
                 display: flex;
                 flex-direction: column;
@@ -1055,6 +1053,8 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     }
     
 }
+
+
 // Recent posts
 
 
