@@ -939,7 +939,13 @@ blockquote.special-quote::before {
 - Blog page CSS -/Start
 ====================================*/
 .blog-section {
-    padding: 80px;
+    padding-block: 80px;
+    @media (max-width: 1199px) {
+        padding-block: 60px;
+    }
+    @media (max-width: 991px) {
+        padding-block: 40px;
+    }
     .row {
         --bs-gutter-x: 20px;
         --bs-gutter-y: 20px;
