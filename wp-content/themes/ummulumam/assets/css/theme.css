@@ -767,7 +767,7 @@ input[type=search]::-webkit-search-results-decoration {
   color: var(--red-orange);
   text-decoration-color: hsla(15, 100%, 69%, 0.5);
 }
-.child-sidebar .single-sidebar-wrap ul.wp-block-latest-posts__list:last-child::after {
+.child-sidebar .single-sidebar-wrap ul.wp-block-latest-posts__list:last-child li::after {
   background: transparent;
 }
 .child-sidebar .single-sidebar-wrap ul.wp-block-categories-list {
