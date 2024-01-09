@@ -285,8 +285,17 @@ header {
     background-color: rgba(255, 255, 255, 0.45);
 }
 
-.header-logo img {
-    max-width: 190px;
+.header-logo {
+        @media (max-width: 575px) {
+            padding-block: 0;
+        }
+    img {
+        max-width: 190px;
+
+        @media (max-width: 575px) {
+            max-width: 145px;
+        }
+    }
 }
 
 .header-menu-class {
