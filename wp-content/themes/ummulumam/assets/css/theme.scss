@@ -342,15 +342,24 @@ header {
     margin-top: -2px;
 
     @media (max-width: 991px) {
-        background-size: auto 50%;
-        background-position: left top;
+        // background-size: auto 50%;
+        // background-position: left top;
         padding-block: 110px 100px;
+        background: url('data:image/svg+xml,<svg width="371" height="633" viewBox="0 0 371 633" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" d="M91.8504 155.31C178.25 72.6535 318.16 22.1119 370 0C370 185.67 369.442 558.063 369.442 563.328C331.538 665.464 250.156 629.663 218.383 613.869C193.137 601.319 138.673 560.169 116.377 535.424C59.5205 476.459 17.7768 424.338 6.00871 376.429C-11.0615 306.935 5.45128 237.966 91.8504 155.31Z" fill="url(%23paint0_linear_0_1)"/><path d="M121 162.5C198.5 84 324 36 370.5 15C370.5 191.333 370 545 370 550C336 647 263 613 234.5 598C211.854 586.081 163 547 143 523.5C92.0002 467.5 54.5561 418 44.0001 372.5C28.6882 306.5 43.5001 241 121 162.5Z" fill="url(%23paint1_linear_0_1)"/><defs><linearGradient id="paint0_linear_0_1" x1="369.443" y1="8.41378e-06" x2="203.647" y2="637.847" gradientUnits="userSpaceOnUse"><stop stop-color="%23D093D7"/><stop offset="1" stop-color="%238662CE"/></linearGradient><linearGradient id="paint1_linear_0_1" x1="356.5" y1="177" x2="99.5" y2="316" gradientUnits="userSpaceOnUse"><stop stop-color="%23D093D7"/><stop offset="1" stop-color="%238561CD"/></linearGradient></defs></svg>');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: auto;
+    }
+
+    @media (max-width: 767px) {
+        background-size: 50%;
+        padding-block: 100px 90px;
     }
 
     @media (max-width: 575px) {
-        background: url('../images/home-banner-bg-mobile.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
+        // background: url('../images/home-banner-bg-mobile.jpg');
+        // background-repeat: no-repeat;
+        background-size: 70%;
         padding-block: 80px 80px;
     }
 }
