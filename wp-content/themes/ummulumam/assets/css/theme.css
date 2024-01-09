@@ -690,11 +690,6 @@ blockquote.special-quote::before {
 /*====================================
 - About Page Banner CSS -/End
 ====================================*/
-.new-section-bg {
-  padding: 400px 50px;
-  background: linear-gradient(165deg, var(--automated-background-1) -3.7%, var(--automated-background-2) 56.45%, var(--automated-background-3) 116.59%);
-}
-
 .scroll-reveal span {
   color: hsla(0, 0%, 100%, 0.2);
   -webkit-background-clip: text;
