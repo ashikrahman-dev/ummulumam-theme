@@ -452,6 +452,18 @@ header {
     .row {
         --bs-gutter-x: 60px;
         --bs-gutter-y: 40px;
+
+        @media (max-width: 991px) {
+            --bs-gutter-x: 12px;
+        }
+    }
+
+    .featured-product-image-wrap {
+        img {
+            @media (max-width: 991px) {
+                max-width: 500px;
+            }
+        }
     }
 
     .featured-product-content {
@@ -909,7 +921,7 @@ blockquote.special-quote::before {
                 transition-delay: 50ms;
                 transform: translateY(-185px);
 
-                @media (max-width: 767px) {
+                @media (max-width: 991px) {
                     width: 40px;
                     height: 40px;
                     background-size: 24px 24px;

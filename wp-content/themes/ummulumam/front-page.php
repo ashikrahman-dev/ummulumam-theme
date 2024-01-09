@@ -55,7 +55,7 @@ get_header(); ?>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div class="featured-product-image-wrap">
+                <div class="featured-product-image-wrap text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Nosihote-Ummul-Umam-700x700.png" alt="Nosihote Ummul Umam Book" class=" img-fluid">
                 </div>
             </div>

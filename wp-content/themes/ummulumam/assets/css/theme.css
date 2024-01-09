@@ -432,6 +432,16 @@ header {
   --bs-gutter-x: 60px;
   --bs-gutter-y: 40px;
 }
+@media (max-width: 991px) {
+  .featured-product .row {
+    --bs-gutter-x: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .featured-product .featured-product-image-wrap img {
+    max-width: 500px;
+  }
+}
 .featured-product .featured-product-content .product-sub-heading {
   margin-bottom: 15px;
 }
@@ -762,7 +772,7 @@ blockquote.special-quote::before {
   transition-delay: 50ms;
   transform: translateY(-185px);
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .image-gallery .image-gallery-item button::after {
     width: 40px;
     height: 40px;
