@@ -22,7 +22,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <!-- <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;"> -->
-                    <div class="ms-auto my-2 my-lg-0 header-menu-wrap">
+                    <div class="ms-auto my-2 my-lg-0 header-menu-wrap pt-4 pt-lg-0 pb-3 pb-lg-0">
                         <?php wp_nav_menu(array('theme_location' => 'main_menu', 'menu_class' => 'navbar-nav  navbar-nav-scroll header-menu-class')) ?>
                     </div>
 

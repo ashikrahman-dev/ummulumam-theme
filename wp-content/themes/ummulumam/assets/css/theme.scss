@@ -276,19 +276,32 @@ body {
 -   Header CSS -/Start
 ====================================*/
 header {
-    position: absolute !important;
-    width: 100% !important;
-    backdrop-filter: blur(12px);
-    position: sticky;
-    top: 0;
-    z-index: 99;
-    background-color: rgba(255, 255, 255, 0.45);
+    position: relative;
+    .navbar {
+        position: absolute !important;
+        width: 100% !important;
+        backdrop-filter: blur(12px);
+        z-index: 99;
+        background-color: rgba(255, 255, 255, 0.45);
+
+        @media (max-width: 991px) {
+            backdrop-filter: blur(20px);
+        }
+
+        .navbar-toggler {
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+
 }
 
 .header-logo {
-        @media (max-width: 575px) {
-            padding-block: 0;
-        }
+    @media (max-width: 767px) {
+        padding-block: 0;
+    }
     img {
         max-width: 190px;
 
@@ -611,10 +624,10 @@ header {
         padding-block: 140px 100px;
     }
     @media (max-width: 991px) {
-        padding-block: 120px 80px;
+        padding-block: 140px 80px;
     }
     @media (max-width: 767px) {
-        padding-block: 110px 70px;
+        padding-block: 140px 70px;
     }
 
 }
@@ -625,13 +638,23 @@ header {
 
 }
 
-.breadcrumb-item svg * {
-    stroke: #ffffff;
+.single-post-breadcrumb {
+    padding-block: 60px 60px;
+}
+
+.breadcrumb-item svg *, .breadcrumb-item a {
     transition: all 200ms ease-in-out;
 }
 
 .breadcrumb-item:hover svg * {
     stroke: #440889;
+}
+
+.breadcrumb-item:hover a {
+    color: #440889;
+}
+.breadcrumb-item {
+    font-size: 18px;
 }
 
 .breadcrumb-item.active {
@@ -985,7 +1008,6 @@ blockquote.special-quote::before {
 .single-blog-page {
     .row {
         --bs-gutter-x: 40px;
-        --bs-gutter-y: 40px;
     }
 }
 
