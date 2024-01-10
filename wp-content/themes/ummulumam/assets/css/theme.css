@@ -296,6 +296,12 @@ header .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
 
+.single-post header .navbar {
+  background: hsla(258, 53%, 59%, 0.08);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+}
+
 @media (max-width: 767px) {
   .header-logo {
     padding-block: 0;

@@ -298,6 +298,14 @@ header {
 
 }
 
+.single-post {
+    header {
+        .navbar {
+            background: hsla(258, 53%, 59%, 0.08);
+            backdrop-filter: blur(12px);
+        }
+    }
+}
 .header-logo {
     @media (max-width: 767px) {
         padding-block: 0;

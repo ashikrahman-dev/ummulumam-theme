@@ -44,7 +44,7 @@ get_header();
 
                         </li>
                         <li class="breadcrumb-item fw-medium text-clr-secondary" aria-current="page">
-                            <a href="#" class="text-decoration-none text-clr-secondary">
+                            <a href="<?php echo home_url(); ?>/blog" class="text-decoration-none text-clr-secondary">
                                 লিখা লিখি
                             </a>
                         </li>
