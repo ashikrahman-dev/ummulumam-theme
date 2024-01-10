@@ -451,6 +451,7 @@ header .navbar .navbar-toggler:focus {
 @media (max-width: 991px) {
   .featured-product .featured-product-image-wrap img {
     max-width: 500px;
+    width: 100%;
   }
 }
 .featured-product .featured-product-content .product-sub-heading {
