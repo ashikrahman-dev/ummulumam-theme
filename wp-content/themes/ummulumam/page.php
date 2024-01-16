@@ -52,9 +52,12 @@ get_header();
 
             <div class="col-lg-12">
 
-                <!-- <?php get_template_part('template-part/post-setup'); ?> -->
+                <?php //get_template_part('template-part/post-setup'); ?>
 
-                <h2>This is single page.</h2>
+                
+                <div class="page-content-wrap">
+                    <?php the_content(); ?>
+                </div>
 
             </div>
         </div>
