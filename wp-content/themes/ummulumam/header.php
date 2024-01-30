@@ -10,6 +10,12 @@
 
 <body <?php body_class();  ?>>
 
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
     <!-- Header /Start -->
     <header>
         <nav class="navbar navbar-expand-lg">
