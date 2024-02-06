@@ -31,6 +31,8 @@ function uum_css_js_file_calling()
     wp_enqueue_script('jquery');
     // Bootstrap JS
     wp_enqueue_script('bootstrap', get_theme_file_uri() . '/assets/js/bootstrap.bundle.min.js', array(), '5.3.2', true);
+    wp_enqueue_script('gsap', get_theme_file_uri() . '/assets/js/gsap.min.js', array(), '3.12.51', true);
+    wp_enqueue_script('gsap-css-rule', get_theme_file_uri() . '/assets/js/CSSRulePlugin.min.js', array(), '3.12.51', true);
     wp_enqueue_script('main', get_theme_file_uri() . '/assets/js/main.js', array(), '1.0.0', true);
 }
 

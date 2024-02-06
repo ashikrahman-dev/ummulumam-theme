@@ -385,6 +385,10 @@ header .navbar .navbar-toggler:focus {
   margin-bottom: 30px;
   font-weight: 700;
   color: var(--blue);
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  opacity: 0.5;
+  transform: translateY(50px);
 }
 @media (max-width: 991px) {
   .banner-content h1 {
@@ -399,6 +403,10 @@ header .navbar .navbar-toggler:focus {
 
 .banner-content p {
   margin-bottom: 40px;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  opacity: 0.5;
+  transform: translateY(50px);
 }
 
 .common-fill-button {
@@ -412,6 +420,10 @@ header .navbar .navbar-toggler:focus {
   display: inline-block;
   transition: all 200ms linear;
   transform: translateY(-2px);
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  opacity: 0.5;
+  transform: translateY(50px);
 }
 
 .common-fill-button:hover {
@@ -605,7 +617,8 @@ header .navbar .navbar-toggler:focus {
   padding-block: 60px 60px;
 }
 
-.breadcrumb-item svg *, .breadcrumb-item a {
+.breadcrumb-item svg *,
+.breadcrumb-item a {
   transition: all 200ms ease-in-out;
 }
 
@@ -761,6 +774,9 @@ blockquote.special-quote::before {
     --bs-gutter-y: 16px;
   }
 }
+.image-gallery .image-gallery-item {
+  z-index: -4;
+}
 .image-gallery .image-gallery-item button {
   position: relative;
   z-index: 9;
@@ -812,10 +828,16 @@ blockquote.special-quote::before {
 
 .modal-dialog {
   max-width: 40%;
+  z-index: 5;
 }
 
 .modal-close-btn {
   cursor: pointer;
+}
+
+.modal-backdrop.show {
+  z-index: -5;
+  display: none;
 }
 
 /*====================================

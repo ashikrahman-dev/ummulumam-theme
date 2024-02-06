@@ -18,7 +18,7 @@ get_header(); ?>
             <div class="col-lg-6 col-xl-5 ">
                 <!-- Banner content  -->
                 <div class="banner-content">
-                    <h1 class="text-clr-primary fw-bold fs-48 text-center text-sm-start">
+                    <h1 class="text-clr-primary fw-bold fs-48 text-center text-sm-start banner-heading">
                         তুমি বুঝো আর না বুঝো, তিনি তোমার জন্য এক অতুলনীয় রহমত!
                     </h1>
                     <p class="text-clr-secondary fs-18 text-center text-sm-start">
