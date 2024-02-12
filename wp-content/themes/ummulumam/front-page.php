@@ -125,7 +125,7 @@ get_header(); ?>
 
                             <!-- Button trigger modal -->
                             <button type="button" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal<?php echo get_the_ID(); ?>">
-                                <?php echo the_post_thumbnail('sm-image'); ?>
+                                <?php echo the_post_thumbnail('gallery-thumbnail'); ?>
 
                             </button>
 

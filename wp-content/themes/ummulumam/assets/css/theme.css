@@ -282,7 +282,7 @@ header .navbar {
   width: 100% !important;
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
-  z-index: 99;
+  z-index: 999;
   background-color: rgba(255, 255, 255, 0.45);
 }
 @media (max-width: 991px) {
@@ -290,6 +290,9 @@ header .navbar {
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
   }
+}
+header .navbar .navbar-toggler {
+  border: 0;
 }
 header .navbar .navbar-toggler:focus {
   outline: none;

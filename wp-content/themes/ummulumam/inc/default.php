@@ -12,7 +12,10 @@ add_theme_support('title-tag');
 
 // Add post thumbnail
 add_theme_support('post-thumbnails', array('page', 'post', 'sm-image'));
+
+//Add image size
 add_image_size('post-thumbnails', 1200, 674, true);
+add_image_size('gallery-thumbnail', 300, 300, true);
 
 
 // Posts read more button add

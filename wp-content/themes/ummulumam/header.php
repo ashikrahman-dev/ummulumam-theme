@@ -24,7 +24,11 @@
                     <img src="<?php echo get_theme_mod('uum_logo'); ?>" alt="Logo" class="img-fluid">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.66675 13.3333H33.3334M6.66675 26.6666H33.3334" stroke="#8562CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <!-- <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;"> -->
